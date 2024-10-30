@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* BuddyPress Group Wiki plugin styles
+ * Design by Stuart Anderson, David Cartwright, Ryo Seo-Zindy
+ * Release 2010
+ */
+
+ 
+#groupwiki #wiki-enable {
+	margin-bottom: 20px;
+}
+
+/***
+ ***  Wiki creation step 
+ ***/
+
+#wiki-create-unticked {
+}
+
+#wiki-create-fields {
+}
+
+.wiki-create-creen-hidden {
+	display:none;
+}
+
+.remove-wiki-title-input-field {
+	float: left;
+	height: 16px;
+	width: 16px;
+	margin: 5px 5px 5px 0;
+	background:url(../images/delete.gif) no-repeat;
+	}
+
+.spacer-wiki-title-input-field {
+	float: left;
+	height: 16px;
+	width: 16px;
+	margin: 5px 5px 5px 0;
+}
+
+.add-wiki-title-input-field {
+	float: left;
+	height: 16px;
+	width: 16px;
+	margin: 5px 5px 5px 0;
+	background:url(../images/add.gif) no-repeat;
+}
+
+.wiki-form-element {
+	opacity: 0;
+	clear:left;
+}
+						
+
+/***
+ *** Wiki admin step
+ ***/
+
+table#wiki-pages-admin th {
+	padding: 2px 0;
+}
+table#wiki-pages-admin td {
+	padding: 2px 0;
+	border: 1px solid #CCC;
+}
+table#wiki-pages-admin tr.stripe td {
+	background: #F4F4F4 none repeat scroll 0 0;
+}
+
+table#wiki-pages-admin td.wiki-page-order input,
+table#wiki-pages-admin td.wiki-page-title input {
+	border: 2px inset transparent;
+	background-color: transparent;
+}
+
+table#wiki-pages-admin td.wiki-page-order:hover,
+table#wiki-pages-admin td.wiki-page-title:hover {
+		background-color: #FAFAD2;
+}
+table#wiki-pages-admin td.wiki-page-order input:focus ,
+table#wiki-pages-admin td.wiki-page-title input:focus {
+		border: 2px inset #CCC;
+		background-color: white;
+}
+
+table#wiki-pages-admin td.wiki-page-order ,
+table#wiki-pages-admin td.wiki-page-order input {
+	width: 20px;
+}
+table#wiki-pages-admin td.wiki-page-order input {
+	text-align: center;
+}
+table#wiki-pages-admin td.wiki-page-order,
+table#wiki-pages-admin td.wiki-page-title {
+	padding: 0 2px;
+}
+table#wiki-pages-admin td.wiki-page-title,
+table#wiki-pages-admin td.wiki-page-title input {
+	width: 225px; 
+	margin: 0;
+}
+table#wiki-pages-admin td.wiki-page-privacy,
+table#wiki-pages-admin td.wiki-page-editing,
+table#wiki-pages-admin td.wiki-page-commenting,
+table#wiki-pages-admin td.wiki-page-enabled {
+	text-align: center;
+}
+

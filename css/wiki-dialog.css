@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* BuddyPress Group Wiki plugin styles
+ * Design by Stuart Anderson, David Cartwright, Ryo Seo-Zindy
+ * Release 2010
+ */
+ 
+ 
+.ui-dialog { position: relative; width: 300px; border: 2px outset silver; background: white; }
+.ui-dialog .ui-dialog-titlebar { position: relative;  }
+.ui-dialog .ui-dialog-title { float: left; background: #4597B7; width: 100%; height: 22px; border: 2px outset black; color: white; font-weight: bold; padding-left: 3px; } 
+.ui-dialog .ui-dialog-titlebar-close { position: absolute; right: .3em; top: 50%; width: 16px; margin: 3px -3px 0 0; height: 16px; border: 2px outset silver; background-color: silver;}
+.ui-dialog .ui-dialog-titlebar-close span { display: block; margin: 1px; }
+.ui-dialog .ui-dialog-titlebar-close:hover, .ui-dialog .ui-dialog-titlebar-close:focus { padding: 0; }
+.ui-dialog .ui-dialog-titlebar-close { background-image: url(../images/file-library-close.png); }
+.ui-dialog .ui-dialog-titlebar-close span { display:none; }
+.ui-dialog .ui-dialog-content { border: 0; padding: .5em 1em; background: white; overflow: hidden; zoom: 1; }
+.ui-dialog .ui-dialog-buttonpane { text-align: left; border-width: 1px 0 0 0; background-image: none; margin: .5em 0 0 0; padding: .3em 1em .5em .4em; }
+.ui-dialog .ui-dialog-buttonpane button { float: right; margin: .5em .4em .5em 0; cursor: pointer; padding: .2em .6em .3em .6em; line-height: 1.4em; width:auto; overflow:visible; }
+.ui-dialog .ui-resizable-se { width: 14px; height: 14px; right: 3px; bottom: 3px; }
+.ui-draggable .ui-dialog-titlebar { cursor: move; }
+.ui-dialog-content { border: 1px solid black; }
+.ui-widget-overlay { background:url("../images/grey-modal-background.png") repeat-x scroll 50% 50% #AAAAAA; opacity:0.4; position: absolute; left: 0; top: 0; }
+
+#warning-dialog h3 {
+	padding: 2px;
+	background-image: url('../images/warning_32.png');
+	background-repeat: no-repeat;
+	background-position: center left;
+	padding-left: 40px;
+	margin-bottom: 2px;
+	min-height: 32px;
+}

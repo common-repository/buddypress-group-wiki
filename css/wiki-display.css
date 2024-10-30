@@ -1,0 +1,238 @@
+@charset "utf-8";
+/* BuddyPress Group Wiki plugin styles
+ * Design by Stuart Anderson, David Cartwright, Ryo Seo-Zindy
+ * Release 2010
+ */
+
+ /***
+  *** General page display styles
+  ***/
+
+#groupwiki div.wiki-title {
+	clear: both;
+}  
+  
+/* Wiki page title bar style */
+#groupwiki div.wiki-title div.titlebar h4{
+	font-size:1.6em;
+	font-weight: bold;
+	background-image:url(../images/wiki-title.png);
+}
+
+
+/* Basic page content heading styles */
+#groupwiki div.wiki-post h1,
+#groupwiki div.wiki-post h2,
+#groupwiki div.wiki-post h3,
+#groupwiki div.wiki-post h4,
+#groupwiki div.wiki-post h5,
+#groupwiki div.wiki-post h6 {
+	font-weight:bold;
+	margin:10px 0;
+}
+#groupwiki div.wiki-post h1,
+#groupwiki div.wiki-post h2,
+#groupwiki div.wiki-post h3,
+#groupwiki div.wiki-post h4 {
+	color:#000;
+}
+
+#groupwiki div.wiki-post h1 {
+	font-size:1.5em;
+	
+}
+
+#groupwiki div.wiki-post h2 {
+	font-size:1.4em;
+}
+ 
+#groupwiki div.wiki-post h3 {
+	font-size:1.3em;
+} 
+
+#groupwiki div.wiki-post h4 {
+	font-size:1.2em;
+} 
+
+#groupwiki div.wiki-post h5 {
+	font-size:1.1em;
+} 
+
+#groupwiki div.wiki-post h6 {
+	font-size:1.0em;
+} 
+
+code, pre {
+	font-family: monospace;
+}
+
+/* List styles */
+#groupwiki div.wiki-post ul {
+	list-style-type: disc;
+	list-style-position: inside;
+	margin-left:10px;
+	margin-bottom:10px;
+}
+
+#groupwiki div.wiki-post ol {
+	list-style-type: decimal;
+	list-style-position: inside;
+	margin-left:10px;
+	margin-bottom:10px;
+}
+
+/* Default Table Style */
+
+#groupwiki div.wiki-post table {
+	border-collapse: collapse;
+	text-align:left;
+	margin-left: auto;
+	margin-right: auto;
+}
+#groupwiki #wiki-display table, 
+#groupwiki #wiki-display thead, 
+#groupwiki #wiki-display tbody, 
+#groupwiki #wiki-display tr, 
+#groupwiki #wiki-display th, 
+#groupwiki #wiki-display td {
+	border: 1px solid #CCC;
+}
+#groupwiki #wiki-display tr.alt {
+	background-color: transparent ;
+}
+#groupwiki #wiki-display table tr td, 
+#groupwiki #wiki-display table tr th {
+	padding:2px;
+}
+#groupwiki #wiki-display table {
+	width: auto;
+}
+
+#groupwiki div.wiki-post caption {
+	font-size: 1.0em;
+	color: #000000;
+	text-align: center;
+	font-weight: bolder;
+	margin-left: 1px 0 0 0 ;
+	border-bottom: 3px solid #000;
+}
+
+#groupwiki div.wiki-post thead tr {
+	color: #000;
+}
+
+#groupwiki div.wiki-post tfoot th, 
+#groupwiki div.wiki-post tfoot td{
+	border-top: 3px solid #000;
+}
+
+#groupwiki div.wiki-post tr td, 
+#groupwiki div.wiki-post tr th {
+	margin-left: 1px;
+	line-height: 1.5em;
+}
+
+#groupwiki div.wiki-post tbody th a{
+	text-transform:uppercase;
+}
+
+#groupwiki div.wiki-post tbody a, tbody a:link{
+	color: #0099ff;
+	font-weight:bold;	
+	text-decoration:none;
+}
+
+#groupwiki div.wiki-post tbody a:visited{
+	color:#000;
+}
+
+
+ 
+ /***
+  *** Page table of contents styles
+  ***/
+#groupwiki div.toc  {
+	background: #f1f1f1;
+	border: 5px solid #dadada;
+	-webkit-border-radius: 3px;
+	float: right;
+	margin-left: 16px;
+	padding: 4px 8px;
+	margin-bottom: 12px;
+	font-size: 85%;
+	max-width: 45%;
+}
+
+/* Contents box title style */
+#groupwiki div.toc h3 {
+	color:#333333;
+	background: none;
+	font-family:Georgia,"Times New Roman",Times,serif;
+	font-size:1.6em;
+	margin-bottom:10px;
+	padding-left: 0px;
+	padding-bottom: 3px;
+	border-bottom:1px solid #DADADA;
+    margin-top: 0px;
+}
+
+/* List link styles */
+#groupwiki div.toc  a:hover {
+	color:#D54E21;
+}
+#groupwiki div.toc  a {
+	color:#21759B;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+/* List item indentation */
+#groupwiki div.toc ul ul {
+	margin: 0 auto;
+	margin-left: 10px;
+}
+
+#groupwiki div.toc  ul li {
+	list-style-type: none;
+	background: none;
+	list-style-position:outside;
+	font-family:"Lucida Grande",Verdana,"Bitstream Vera Sans",Arial,sans-serif;
+}
+
+/* Hide/Show link */
+#groupwiki div.toc p {
+	margin-bottom: 0;
+}
+#groupwiki div.toc  a.hide, 
+#groupwiki div.toc a.show {
+	cursor: pointer;
+	font-size: 85%;
+}
+#groupwiki div.toc  a.hide, 
+#groupwiki div.toc a.show {
+	cursor: pointer;
+	font-size: 85%;
+  display: inline;
+}
+
+
+ /***
+  *** General display page framework styles
+  ***/
+  
+#groupwiki div.wiki-title p.last-edited {
+	margin-bottom: 10px;
+}
+#groupwiki div.wiki-title p.last-edited,
+#groupwiki div.wiki-title p.last-edited  a:link,
+#groupwiki div.wiki-title p.last-edited  a:visited { 
+	color: #AAA;
+}
+
+#groupwiki div.wiki-title p.last-edited  a:link,
+#groupwiki div.wiki-title p.last-edited  a:visited {
+	text-decoration:underline;
+}
+#groupwiki div.wiki-title p.last-edited  a:hover {
+	color: #666;
+}

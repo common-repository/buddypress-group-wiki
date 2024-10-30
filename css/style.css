@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* BuddyPress Group Wiki plugin styles
+ * Design by Stuart Anderson, David Cartwright, Ryo Seo-Zindy
+ * Release 2010
+ */
+ 
+@import url('wiki-layout.css');
+@import url('wiki-admin.css');
+@import url('wiki-dialog.css');
+@import url('wiki-home.css');
+@import url('wiki-display.css');
+@import url('wiki-edit.css');
+@import url('wiki-file-library.css');
+@import url('wiki-revisions.css');
+@import url('wiki-comments.css');
+@import url('wiki-print.css') print;
+
+ 

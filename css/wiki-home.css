@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* BuddyPress Group Wiki plugin styles
+ * Design by Stuart Anderson, David Cartwright, Ryo Seo-Zindy
+ * Release 2010
+ */
+ 
+
+/***
+ *** Styles for the revisions comparison page
+ ***/
+#groupwiki div.wiki-title h1 {
+	font-size: 2em;
+	margin: 15px auto;
+}
+#groupwiki div.wiki-title p {
+	margin: 5px auto;
+}
+#groupwiki table#wiki-summary  {
+	text-align: left;
+} 
+#groupwiki table#wiki-summary tr.alt td {
+	background:#F4F4F4 none repeat scroll 0 0;
+}
+#groupwiki table#wiki-summary  .col-pagename {
+	width: 150px;
+}
+#groupwiki table#wiki-summary .col-excerpt {
+	/* No width so can be greedy with space */
+}
+#groupwiki table#wiki-summary .col-author {
+	width: 100px;
+}
+#groupwiki table#wiki-summary .col-date {
+	width: 150px;
+}
+
+/***
+ *** Front end member wiki page creation layout
+ *** (only appears if enabled in wiki admin options)
+ ***/
+
+
+#groupwiki #wiki-frontend-page-create {
+	border-top:1px solid #EAEAEA;
+	padding-top: 15px;
+	margin-bottom: 30px;
+}
+#groupwiki #wiki-frontend-page-create div.instruction {
+	float:left;
+	padding-right:5px;
+}
+#groupwiki #wiki-frontend-page-create input {
+	float: left;
+	width: 15em;
+}
+#groupwiki #wiki-frontend-page-create div.generic-button {
+	float: left;
+	margin-left: 10px;
+}
+#groupwiki #wiki-frontend-page-create div.generic-button a {
+	display: block;
+	padding: 0 5px;
+}

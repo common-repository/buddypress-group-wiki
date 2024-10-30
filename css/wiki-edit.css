@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* BuddyPress Group Wiki plugin styles
+ * Design by Stuart Anderson, David Cartwright, Ryo Seo-Zindy
+ * Release 2010
+ */
+
+
+ /***
+ *** Edit wiki page button style (on wiki-display pages)
+ ***/
+#groupwiki div.page-edit-link {
+	width: 9em;
+}
+/* Edit page button image */
+#groupwiki div.page-edit-link a span {
+	background-image: url(../images/edit-page.gif);
+	background-position: 2px center;
+	padding-left: 20px;
+	padding-top: 2px;
+}
+#groupwiki div.page-edit-link a {
+	padding-left: 5px;
+	padding: 3px 0 3px 3px;
+}
+
+#groupwiki #entry {
+	min-height: 100px;
+}
+
+/***
+ *** Image edit buttons
+ ***/
+
+#wp_editbtns {
+	position:absolute;
+}
+
+/***
+ *** Save wiki page buttons
+ ***/
+ 
+
+/* Space media button away from Cancel button to avoid accidental Cancel */
+div#wiki-media-button div {
+	margin-right: 15px;
+}
+#groupwiki div.titlebar  div#wiki-media-button div a,
+#groupwiki div.titlebar div#wiki-edit-cancel div a,
+#groupwiki div.titlebar div#wiki-edit-save input {
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+/***
+ *** AJAX editing now styles (viewing requires concurrent editing)
+ ***/
+
+/* Warning notices will appear in this space */
+div#now-editing-tab {
+	min-height: 20px;
+	overflow: hidden;
+	clear:both; 
+}
+ 
+div#now-editing-tab div#editing-now-warnings {
+	float: left;
+	padding: 2px;
+	background-image: url('../images/warning_32.png');
+	background-repeat: no-repeat;
+	background-position: center left;
+	padding-left: 40px;
+	margin-bottom: 2px;
+	min-height: 32px;
+}
+
+div#now-editing-tab div.author-editing-now {
+	float:left;
+	padding: 1px;
+	background:none repeat scroll 0 0 #FFF9DB;
+	border-bottom:1px solid #FFE8C4;
+	border-right:1px solid #FFE8C4;
+	color:#FFA200;
+	font-size:11px;
+	font-weight:normal;
+	padding:2px 8px;
+	margin-left: 2px;
+}
+div#now-editing-tab div.editing-now {
+	float: left;
+}
+div#now-editing-tab div.edit-now-advice {
+	clear:left;
+	color: #AAA;
+}

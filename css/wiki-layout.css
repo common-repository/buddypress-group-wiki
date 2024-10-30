@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* BuddyPress Group Wiki plugin styles
+ * Design by Stuart Anderson, David Cartwright, Ryo Seo-Zindy
+ * Release 2010
+ */
+
+ /***
+ *** Core BP theme bug fixes
+ ***/
+ 
+ /* Duplicate BP navigation bar in version 2315 */
+ /* BUG FIXED 20/01/2009 - remove this css once stable */
+ /*body.wiki #item-body #subnav { 
+	display: none;
+ }*/
+ 
+/***
+ *** General styles to help with layout
+ ***/
+
+.clean, 
+.cleanright, 
+.cleanleft {
+	clear: both;
+	height: 1px;
+	font-size: 1px;
+	border: none;
+	margin: 0; 
+	padding:  0;
+	background: transparent; 
+	width: 98%;
+	border: none;
+}
+.cleanright {
+	clear: right;
+} 
+.cleanleft {
+	clear: left;
+}
+	
+#groupwiki .warning {
+	color: red;
+	font-weight: bold;
+}
+
+#groupwiki .divider {
+	overflow: hidden;
+	border-bottom: 1px solid #EAEAEA;
+	clear: left;
+	margin: 10px -15px;
+	height: 10px; /* ToDo - Fix collapsing margins problem.  This fix is a fudge. */
+}
+
+#groupwiki .columns-two {
+	padding-bottom: 10px;
+	overflow: hidden;
+	width: 100%;
+}
+#groupwiki .columns-two .left {
+	float:left;
+	width:50%;
+}
+#groupwiki .columns-two .right {
+	float:right;
+	width:50%;
+	text-align: right;
+}
+
+
+
+/***
+ *** Core wiki page navigation
+ ***/
+#groupwiki #wiki-nav {
+	border-bottom: 1px solid #EAEAEA;
+	margin: 0 -20px 0px;
+	min-height: 35px;
+	overflow: hidden;
+	padding: 0 15px;
+}
+#groupwiki ul#wiki-pages li {
+	float: left;
+	margin: 10px 20px 0 5px;
+	padding-bottom: 5px;
+	white-space:  nowrap;
+}
+#groupwiki ul#wiki-pages li.selected-page {
+	background-image: url(../images/arrow.png);
+	background-repeat: no-repeat;
+	background-position: left 5px;
+	font-weight: bold;
+	padding-left: 17px;
+}
+
+
+
+/***
+ *** Page section title bars 
+ ***/
+
+#groupwiki .titlebar {
+	margin: 0 -20px 5px;
+	padding: 5px 5px 5px 15px;
+	color: #272727;
+	font-weight: bold;
+	background-color: #f4f4f4;
+	overflow: hidden;
+}
+#groupwiki .titlebar  h4 {
+	margin: 0;
+	margin-top: 3px;
+	padding-left: 20px;
+	float: left;
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+#groupwiki div.titlebar div.generic-button,
+#groupwiki div.titlebar div input {
+	float: right;
+	margin-left: 5px;
+}
+#groupwiki div.titlebar div input {
+	padding: 3px;
+	font-family: Arial,Tahoma,Verdana,sans-serif;
+	min-height: 28px;
+}
+#groupwiki .titlebar div.generic-button a {
+	display: block;
+	padding: 3px;
+}
+#groupwiki .titlebar div.generic-button a span{
+	background-repeat: no-repeat;
+}
+/* CSS hack for webkit (Chrome and Safari) */
+@media all and (-webkit-min-device-pixel-ratio:0) {
+	#groupwiki div.titlebar div input {
+		margin-top: 0px;
+	}
+}
+
+#groupwiki .wiki-post,
+#groupwiki .wiki-revisions,
+#groupwiki .wiki-comments {
+	margin-bottom: 20px;
+}
+
+/***
+ *** Globally useful styles
+ ***/
+
+#groupwiki .wiki-meta {
+	color: #AAA;
+}

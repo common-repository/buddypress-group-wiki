@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* BuddyPress Group Wiki plugin styles
+ * Design by Stuart Anderson, David Cartwright, Ryo Seo-Zindy
+ * Release 2010
+ */
+ 
+
+#header, #item-header, #item-nav,
+#wiki-nav, 
+#groupwiki .generic-button, 
+#groupwiki div.toc p,
+#groupwiki #blog-page #wiki-display .wiki-revisions, 
+#groupwiki #blog-page #wiki-revisions .columns-two, 
+#groupwiki .wiki-comments, 
+#sidebar, #footer , 
+#wp-admin-bar {
+	display: none;
+}
+
+#groupwiki div.toc {
+	max-width: 100%;
+	float: none;
+	clear: both;
+	margin: auto 0;
+}

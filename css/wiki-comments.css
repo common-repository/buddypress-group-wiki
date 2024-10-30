@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* BuddyPress Group Wiki plugin styles
+ * Design by Stuart Anderson, David Cartwright, Ryo Seo-Zindy
+ * Release 2010
+ */
+ 
+ 
+#groupwiki div.wiki-comments div.titlebar h4{
+	background-image: url(../images/comments.gif);
+}
+
+#groupwiki #commentform #comment_text{
+	width: 98%;
+}
+
+#groupwiki .wiki-comments .commentlist {
+	border-top: 1px solid #EAEAEA;
+	margin: auto -15px;
+}
+#groupwiki .wiki-comments .comment {
+	padding: 0 15px;
+}
+#groupwiki .wiki-comments .comment.even {
+	background-color: #F9F9F9;
+} 
+#groupwiki .wiki-comments .comment-body {
+	border-bottom: 1px solid #EAEAEA;
+	padding: 12px 15px 5px 15px;
+	margin: 0 -15px;
+}
+#groupwiki .wiki-comments .comment-author cite{
+	margin-left: 10px;
+}
+#groupwiki .wiki-comments .comment-date {
+	text-align: right;
+	font-size: 0.9em;
+	color: #888;
+	float: right;
+}
+#groupwiki .wiki-comments .comment-options {
+	margin: 0 10px 0 0;
+	padding: 0;
+	width: 5em;
+	float: right;
+	border: none;
+}
+#groupwiki .wiki-comments .comment-options input {
+	padding: 1px;
+}
+#groupwiki .wiki-comments .comment-body .comment-deleted {
+	font-weight: bold;
+}
+
+#groupwiki .wiki-comments .comment {
+	padding: 0 15px;
+}
+#groupwiki .wiki-comments .comment-navigation {
+	text-align: right;
+	margin: 4px auto;
+}

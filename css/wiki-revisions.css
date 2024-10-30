@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* BuddyPress Group Wiki plugin styles
+ * Design by Stuart Anderson, David Cartwright, Ryo Seo-Zindy
+ * Release 2010
+ */
+ 
+ 
+
+#groupwiki div.wiki-revisions div.titlebar h4 {
+	background-image: url(../images/revisions.gif);
+}
+
+/* 'Full History button' image */
+#groupwiki .wiki-revisions div.titlebar div a span.history {
+	background-image: url(../images/history.gif);
+	background-position: 0px center;
+	padding-left: 16px;
+}
+/* 'Restore button' image */
+#groupwiki .wiki-revisions div.titlebar div a span.restore {
+	background-image: url(../images/restore.png);
+	background-position: 4px center;
+	padding-left: 16px;
+}
+
+
+/***
+ *** Styles for the revisions comparison page
+ ***/
+ #groupwiki .wiki-revisions input.submit-revision {
+	margin: 10px auto;
+ }
+ 
+#groupwiki table.revisions-compare  td {
+	padding: 2px;
+}
+#groupwiki table.revisions-compare .col-radio {
+	width: 25px;
+	padding: 0;
+	text-align: center;
+}
+#groupwiki table.revisions-compare  .col-revision {
+	width: 200px;
+	text-align: left;
+}
+#groupwiki table.revisions-compare  .col-author {
+	text-align: left;
+}
+#groupwiki table.revisions-compare  .col-notes {
+	text-align: left;
+}
+
+#groupwiki table.revisions-compare tr.alt td {
+	background: #F4F4F4 none repeat scroll 0 0;
+}
+
+/***
+ *** Styles when comparing revisions
+ ***/
+
+table.diff .diff-deletedline {
+	background-color:#FFDDDD;
+}
+
+table.diff .diff-addedline {
+	background-color:#DDFFDD;
+}
+
